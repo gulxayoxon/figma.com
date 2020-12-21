@@ -1,0 +1,102 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Andika New Basic";
+    position: relative;
+}
+
+.container {
+    width: 1368px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    display: flex;
+    background-color: #5454D4;
+    padding-left: 30px;
+}
+
+header h3 a {
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	padding-right: 570px;
+}
+
+nav{
+    display: flex;
+    width: 220px;
+    justify-content: space-between;
+    padding-right: 600px;
+    padding-top: 2px;
+}
+
+nav p a {
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    margin-right: 34px;
+}
+
+.cart {
+	padding-top: 15px;
+}
+.card {
+	text-decoration: none;
+    font-size: 16px;
+    color: white;
+    padding-right: 5px;
+    margin-bottom: -10px;
+}
+
+button {
+	margin: 0;
+    padding: 0;
+    width: 28px;
+    height: 28px;
+    background-color: #FEDC5A;
+    border-radius: 50px;
+ 	border: none;
+    outline: none;
+}
+ 
+button a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    justify-content: center;
+}
+
+.text {
+	
+}
+
+.box {
+	background-color: #5454D4;; 
+	
+}
+
+.earphone {
+	display: flex;
+	
+}
+.section {
+	
+}
+
+.Save {
+}
+
+.Save-today {
+}
